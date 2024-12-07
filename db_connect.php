@@ -1,8 +1,8 @@
 <?php
 // db connection config variables
-$username = "if0_37866715";
-$password = "Bajiking143";
-$db_url = "mysql:host=sql100.infinityfree.com:3306;dbname=if0_37866715_jobsearch;charset=utf8";
+$username = "root";
+$password = "";
+$db_url = "mysql:host=localhost:3306;dbname=jobs_search;charset=utf8";
 try {
     $db_conn = new PDO($db_url, $username, $password);
     if ($db_conn) {
